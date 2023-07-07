@@ -7,22 +7,28 @@
     <title>Document</title>
   </head>
   <body>
-    <h2>Contact Form</h2>
-    <form id="contactForm">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required />
-
-      <label for="dob">Date of Birth:</label>
-      <input type="date" id="dob" name="dob" required />
-
-      <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email" required />
-
-      <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" required />
-
-      <input type="submit" value="Submit" />
-    </form>
+    <div class="form-container">
+      <form id="userForm">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="dob">Date of Birth:</label>
+          <input type="date" id="dob" name="dob" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
 
     <script src="submit.js"></script>
   </body>
