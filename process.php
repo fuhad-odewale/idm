@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phone = $_POST["phone"];
 
     // Modify the following email address to the one you want to receive the form data
-    $to_email = "your_email@example.com";
+    $to_email = "fuhaodewale@gmail.com";
     $subject = "Form Submission - Contact Details";
     $message = "Name: $name\n";
     $message .= "Date of Birth: $dob\n";
