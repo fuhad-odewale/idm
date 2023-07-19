@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   $formData = json_decode(file_get_contents("php://input"), true);
 
   // Set the recipient email address
-  $to = "your_email@example.com";
+  $to = "fuhaodewale@gmail.com";
 
   // Set the email subject
   $subject = "New Contact Form Submission";
